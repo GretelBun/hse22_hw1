@@ -59,3 +59,12 @@ time platanus scaffold -o Poil -c Poil_contig.fa -IP1 trimmed/sub1.fastq.trimmed
 time platanus gap_close -o Poil -c Poil_scaffold.fa -IP1 /trimmed/sub1.fastq.trimmed trimmed/sub2.fastq.trimmed -OP2 /trimmed/mp1.fastq.int_trimmed trimmed/mp2.fastq.int_trimmed 2> gapclose.log
 
 
+**Начальные данные**
+![Before trimmed](1.png)
+![Before trimmed](2.png)
+
+**После выполнения обрезания**
+![Trimmed](3.png)
+![Trimmed](4.png)
+
+Как можно видеть данные стали лучше и с меньшим количеством дупликатов. 
